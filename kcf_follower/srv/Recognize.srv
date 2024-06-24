@@ -1,0 +1,7 @@
+sensor_msgs/Image rgb_image
+int16 xMin
+int16 yMin
+int16 width
+int16 height
+---
+bool feedback

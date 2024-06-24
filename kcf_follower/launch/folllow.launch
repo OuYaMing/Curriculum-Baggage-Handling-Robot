@@ -1,0 +1,6 @@
+<launch> 
+    
+	<node pkg="voice" type="speak" name="speak" />     	
+    <node pkg="kcf_follower" type="init_tracker" name="init_tracker" />
+    <node pkg="kcf_follower" type="runtracker" name="runtracker" output="screen"/>
+</launch>
